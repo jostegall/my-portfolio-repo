@@ -1,10 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div>
       <div className="mx-auto flex items-center gap-x-4 rounded-x1 bg-sky-500 p-6 shadow">
-        <div className="w-32 h-32 rounded-full overflow-hidden ring-8 ring-white ring-opacity-80 ring-offset-8 ring-offset-sky-500">
+        <div className="w-32 h-32 rounded-full overflow-hidden ring-8 ring-foreground ring-opacity-80 ring-offset-8 ring-offset-sky-500">
           <Image 
               src={"/images/me.jpg"}
               width={500}
@@ -13,12 +14,40 @@ export default function Home() {
             />
         </div>
         <div className="mx-5">
-          <span className="mx-auto uppercase text-3xl">Hi! I'm Joseph Stegall</span>
-          <div>
-            <span>ln</span>
-            <span>git</span>
-            <span>insta</span>
-            <span>facebook</span>
+          <span className="mx-auto uppercase text-3xl border-b-2">Hi! I'm Joseph!!!</span>
+          <div className="my-2 flex flex-row gap-2">
+            <Link href="https://www.linkedin.com/in/josteg/">
+              <Image 
+                src={"/linkedin.svg"}
+                width={28}
+                height={28}
+                alt="Link to LinkedIn"
+              />
+            </Link>
+            <Link href="https://github.com/jostegall">
+              <Image 
+                src={"/github.svg"}
+                width={28}
+                height={28}
+                alt="Link to Github"
+              />
+            </Link>
+            <Link href="https://github.com/jostegall">
+              <Image 
+                src={"/facebook.svg"}
+                width={28}
+                height={28}
+                alt="Link to Facebook"
+              />
+            </Link>
+            <Link href="https://github.com/jostegall">
+              <Image 
+                src={"/instagram.svg"}
+                width={28}
+                height={28}
+                alt="Link to Instagram"
+              />
+            </Link>
           </div>
         </div>
       </div>

@@ -7,9 +7,15 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f1faee;
+  --foreground: oklch(0.928 0.006 264.531);
+  --head-color: #1d3557;
+  --about: #457b9d;
+  --project:
 }
+
+/*
+tweak dark mode palet later, currently using light mode for everything
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,7 +23,7 @@
     --foreground: #ededed;
   }
 }
-
+*/
 body {
   color: var(--foreground);
   background: var(--background);

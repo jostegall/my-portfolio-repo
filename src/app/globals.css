@@ -8,10 +8,11 @@
 
 :root {
   --background: #f1faee;
-  --foreground: oklch(0.928 0.006 264.531);
-  --head-color: #1d3557;
-  --about: #457b9d;
-  --project:
+  --foreground: black;
+  --header: #1d3557;
+  --content: tan;
+  --banner: green;
+  --project: red;
 }
 
 /*

@@ -11,8 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        header: "var(--head-color)",
-        about: "var(--about)",
+        header: "var(--header)",
+        content: "var(--content)",
+        banner: "var(--banner)",
+        project: "var(---project)",
+
       },
     },
   },

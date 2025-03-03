@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container-sm h-screen flex flex-row flex-wrap">
+    <div className="container-sm h-screen flex flex-row flex-wrap min-w-xl">
 
       {/* col #1 */}
-      <div className="bg-header flex flex-col flex-shrink-0 flex-grow-0 w-96 text-white">
+      <div className="bg-header flex flex-col flex-shrink-0 flex-grow-0 max-w-3xl drop-shadow-2xl text-white">
 
         {/* picture of me */}
         <div className="mx-auto mt-10 border-4 rounded-full overflow-hidden">
@@ -38,7 +38,7 @@ export default function Home() {
               height={28}
               alt="Link to LinkedIn"
             />
-          <span className="ml-2"><a href="stegalljoseph09@gmail.com">stegalljoseph09@gmail.com</a></span>
+          <span className="ml-2">stegalljoseph09@gmail.com</span>
         </div>
         <div className="mx-auto my-6 grid grid-cols-4 gap-4">
           <Link href="https://www.linkedin.com/in/josteg/">
@@ -77,9 +77,16 @@ export default function Home() {
       </div>
 
       {/* col #2 */}
-      <div className="bg-content flex-grow">
-        <div className="bg-banner">banner</div>
-        <div className="bg-project">Education + Projects</div>  
+      <div className="bg-background flex flex-col flex-grow min-w-xl">
+        <div className="text-background bg-banner h-36 p-14 drop-shadow-2xl rounded-br-2xl">
+          <span>Banner</span>
+        </div>
+        <div className="bg-card h-3/6 min-w-3/6 m-36 rounded-2xl drop-shadow-2xl">
+          <div className="flex flex-col">
+            <span>Education</span>
+            <span>Projects</span>
+          </div>
+        </div>  
       </div>
     </div>
   );

@@ -7,12 +7,11 @@
 }
 
 :root {
-  --background: #f1faee;
+  --background: #f0f0f0;
   --foreground: black;
   --header: #1d3557;
-  --content: tan;
-  --banner: green;
-  --project: red;
+  --banner: oklch(0.279 0.041 260.031);
+  --card: #cbcbcb;
 }
 
 /*

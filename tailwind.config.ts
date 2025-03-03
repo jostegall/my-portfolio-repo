@@ -12,9 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         header: "var(--header)",
-        content: "var(--content)",
         banner: "var(--banner)",
-        project: "var(---project)",
+        card: "var(--card)",
 
       },
     },

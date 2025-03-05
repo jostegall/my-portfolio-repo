@@ -10,7 +10,7 @@ export default function Home() {
       <div className="bg-header h-72 flex flex-col sm:flex-row justify-center text-background shadow-xl">
         <div className="mx-auto sm:mx-6 sm:my-10 h-28 w-28 sm:h-52 sm:w-52 border-2 border-background rounded-full overflow-hidden shadow-md">
           <Image 
-            src="/images/me.jpg"
+            src="/me.jpg"
             width={500}
             height={500}
             alt="picture of developer"
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="mt-6 flex flex-row justify-center">
             <Link className="mx-1" href="https://www.linkedin.com/in/josteg/">
               <Image 
-                src="/svgs/linkedin-brands.svg"
+                src="/linkedin-brands.svg"
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -29,7 +29,7 @@ export default function Home() {
             </Link>
             <Link className="mx-1" href="https://github.com/jostegall">
               <Image 
-                src="/svgs/square-github-brands.svg"
+                src="/square-github-brands.svg"
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -37,7 +37,7 @@ export default function Home() {
             </Link>
             <Link className="mx-1" href="https://www.instagram.com/stegalljoseph/">
               <Image 
-                src="/svgs/square-envelope-solid.svg"
+                src="/square-envelope-solid.svg"
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -45,7 +45,7 @@ export default function Home() {
             </Link>
             <Link className="mx-1"href="https://www.instagram.com/stegalljoseph/">
               <Image 
-                src="/svgs/square-instagram-brands.svg"
+                src="/square-instagram-brands.svg"
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -53,7 +53,7 @@ export default function Home() {
             </Link>
             <Link className="mx-1" href="https://www.facebook.com/joseph.stegall.716/">
               <Image 
-                src="/svgs/square-facebook-brands.svg"
+                src="/square-facebook-brands.svg"
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <div className="mt-4 mx-auto content-center">
                 <Image className="border-2 border-background rounded-2xl shadow-xl"
-                  src="/images/smokey.jpeg"
+                  src="/smokey.jpeg"
                   width={400}
                   height={400}
                   alt="picture of developer"

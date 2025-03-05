@@ -70,10 +70,10 @@ export default function Home() {
             <div className="flex flex-row">
               <div className="mt-4 mx-20 p-6 w-6/12 border-l-2 border-gray-400 flex flex-col">
                 <span className="text-xl">
-                Hello! I'm Joseph - a senior Computer Science student with a passion for software development and problem-solving. Over the past few years, I've gained hands-on experience in coding, data strcutures and algorithms, and full-stack web development through various coursework and projects.
+                Hello! I&#39;m Joseph - a senior Computer Science student with a passion for software development and problem-solving. Over the past few years, I&#39;ve gained hands-on experience in coding, data strcutures and algorithms, and full-stack web development through various coursework and projects.
                 </span>
-                <span className="mt-4 text-xl">I thrive on tackling complex challenges and continuously expandinf my technical skill set. My interests lie in building efficient, scalable applications and exploring the intersection of technology and innovation.</span>
-                <span className="my-4 text-xl">Outside of coding, I enjoy reading various high fantasy and science fiction books, playing Dungeons & Dragons and Pathfinder, playing any title from FromSoftware, and hanging out with friends, my girlfriend, and my cat.</span>
+                <span className="mt-4 text-xl">I thrive on tackling complex challenges and continuously expanding my technical skill set. My interests lie in building efficient, scalable applications and exploring the intersection of technology and innovation.</span>
+                <span className="my-4 text-xl">Outside of coding, I enjoy reading various high fantasy and science fiction books, playing Dungeons &amp; Dragons and Pathfinder, playing any title from FromSoftware, and hanging out with friends, my girlfriend, and my cat.</span>
               </div>
               <div className="mt-4 mx-auto content-center">
                 <Image className="border-2 border-background rounded-2xl shadow-xl"
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="sm:mx-8 sm:px-4 sm:border-l-2 flex flex-col sm:border-foreground text-center sm:text-left max-w-5xl">
                 <span>BS in Computer Science, Concentrating in Information Sciences</span>
-                <span>Minor in Security and Risk </span>
+                <span>Minor in Security and Risk</span>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function Home() {
             {/* lead tech */}
             <div className="mt-2 p-2 sm:hover:bg-sky-200 sm:hover:shadow-xl rounded-md">
               <div className="mx-auto mb-2 sm:mx-4 grid grid-row-2 gap-1 sm:grid-row-0 sm:grid-cols-2 font-bold">
-                <span className="text-center sm:text-left">Lead Building Technician & Programmer</span>
+                <span className="text-center sm:text-left">Lead Building Technician &amp; Programmer</span>
                 <span className="text-center sm:text-right hidden sm:grid">Hulman Memorial Student Union | ISU</span>
               </div>
               <div className="sm:mx-8 sm:px-4 sm:border-l-2 sm:border-foreground text-center sm:text-left max-w-5xl">
@@ -129,14 +129,14 @@ export default function Home() {
             {/* norm tech */}
             <div className="mt-2 p-2 sm:hover:bg-sky-200 sm:hover:shadow-xl rounded-md">
               <div className="mx-auto mb-2 sm:mx-4 grid grid-row-2 gap-1 sm:grid-row-0 sm:grid-cols-2 font-bold">
-                <span className="text-center sm:text-left">Building Technician & Programmer</span>
+                <span className="text-center sm:text-left">Building Technician &amp; Programmer</span>
                 <span className="text-center sm:text-right hidden sm:grid">Hulman Memorial Student Union | ISU</span>
               </div>
               <div className="sm:mx-8 sm:px-4 sm:border-l-2 sm:border-foreground text-center sm:text-left max-w-5xl">
                 <span>
                   Ensured the phyiscal security of the building, maintained audiovisual systems, and support events. 
                   <br />
-                  Built and maintained critical componemts used in the HMSU's customer applications.
+                  Built and maintained critical componemts used in the HMSU&#39;s customer applications.
                 </span>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="mt-2 p-2 sm:hover:bg-sky-200 sm:hover:shadow-xl rounded-md">
 
               <div className="mx-auto mb-2 p-2 sm:p-0 sm:mx-4 grid grid-row-2 gap-1 sm:grid-row-0 sm:grid-cols-2 font-bold">
-                <span className="text-center sm:text-left">Inventory Checkout & Management Software (Legacy)</span>
+                <span className="text-center sm:text-left">Inventory Checkout &amp; Management Software (Legacy)</span>
               </div>
 
               <div className="sm:mx-8 sm:px-4 sm:border-l-2 sm:border-foreground text-center sm:text-left max-w-5xl">
@@ -165,13 +165,13 @@ export default function Home() {
             <div className="mt-2 p-2 sm:hover:bg-sky-200 sm:hover:shadow-xl rounded-md">
 
               <div className="mx-auto mb-2 p-2 sm:p-0 sm:mx-4 grid grid-row-2 gap-1 sm:grid-row-0 sm:grid-cols-2 font-bold">
-                <span className="text-center sm:text-left">Inventory Checkout & Management App (2025) </span>
+                <span className="text-center sm:text-left">Inventory Checkout &amp; Management App (2025) </span>
               </div>
 
               <div className="sm:mx-8 sm:px-4 sm:border-l-2 sm:border-foreground text-center sm:text-left max-w-5xl">
-                <span>The Inventory Checkout & Management App for Hulman Memorial Student. Developed after the original application reached it's end of life. 
+                <span>The Inventory Checkout & Management App for Hulman Memorial Student. Developed after the original application reached it&#39;s end of life. 
                 <br /><br />
-                Lead a team develop a new application and update and port Hulman Memorial Student Union's Database to a new server.
+                Lead a team develop a new application and update and port Hulman Memorial Student Union&#39;s Database to a new server.
                 </span>
               </div>
             </div>

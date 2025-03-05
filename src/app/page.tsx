@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { prefix } from './prefix.jsx'
 
 export default function Home() {
   
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="bg-header h-72 flex flex-col sm:flex-row justify-center text-background shadow-xl">
         <div className="mx-auto sm:mx-6 sm:my-10 h-28 w-28 sm:h-52 sm:w-52 border-2 border-background rounded-full overflow-hidden shadow-md">
           <Image 
-            src="/me.jpg"
+            src={`${prefix}/me.jpg`}
             width={500}
             height={500}
             alt="picture of developer"
@@ -21,31 +22,31 @@ export default function Home() {
           <div className="mt-6 flex flex-row justify-center">
             <Link className="mx-1" href="https://www.linkedin.com/in/josteg/">
               <Image 
-                src="/linkedin-brands.svg"
+                src={`${prefix}/linkedin-brands.svg`}
                 width={30}
                 height={30}
-                alt="picture of developer"
+                alt="Link to Joseph Stegall's linkedin account"
               />
             </Link>
             <Link className="mx-1" href="https://github.com/jostegall">
               <Image 
-                src="/square-github-brands.svg"
+                src={`${prefix}/square-github-brands.svg`}
                 width={30}
                 height={30}
-                alt="picture of developer"
+                alt="Linked to Joseph Stegall's github account"
               />
             </Link>
-            <Link className="mx-1" href="https://www.instagram.com/stegalljoseph/">
+            <Link className="mx-1" href="stegalljoseph09@gmail.com">
               <Image 
-                src="/square-envelope-solid.svg"
+                src={`${prefix}/square-envelope-solid.svg`}
                 width={30}
                 height={30}
-                alt="picture of developer"
+                alt="Linked to Joseph Stegall's email"
               />
             </Link>
             <Link className="mx-1"href="https://www.instagram.com/stegalljoseph/">
               <Image 
-                src="/square-instagram-brands.svg"
+                src={`${prefix}/square-instagram-brands.svg`}
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -53,7 +54,7 @@ export default function Home() {
             </Link>
             <Link className="mx-1" href="https://www.facebook.com/joseph.stegall.716/">
               <Image 
-                src="/square-facebook-brands.svg"
+                src={`${prefix}/square-facebook-brands.svg`}
                 width={30}
                 height={30}
                 alt="picture of developer"
@@ -77,7 +78,7 @@ export default function Home() {
               </div>
               <div className="mt-4 mx-auto content-center">
                 <Image className="border-2 border-background rounded-2xl shadow-xl"
-                  src="/smokey.jpeg"
+                  src={`${prefix}/smokey.jpeg`}
                   width={400}
                   height={400}
                   alt="picture of developer"
